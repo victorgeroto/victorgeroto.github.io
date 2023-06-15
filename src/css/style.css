@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #EDE8C9;
+}
+nav{
+    background-color: #2F2E2E;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 3px 3px 10px 3px rgba(0, 0, 0, 0.5);
+}
+nav h1{
+    color: #FFEBCD;
+}
+.itens img{
+    width: 50px;
+    height: 50px;
+}
+.return:hover{
+    filter: opacity(20%);
+}
+.home:hover{
+    filter: opacity(20%);
+}
+h1{
+    margin: 8px;
+    text-align: center;
+    color: #A18F82;
+    margin-top: 20px;
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+.pai{
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+}
+.pai img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+}
+.imagens{
+    margin: 8px;
+}
+.imagens:hover{
+    filter: drop-shadow(5px 5px 5px #443423);
+}
